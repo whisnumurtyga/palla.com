@@ -1,0 +1,331 @@
+/* FORM */
+
+/* Login */
+.form-login .form-floating:focus-within {
+  z-index: 2;
+}
+  
+.form-login input[type="email"] {
+  margin-bottom: -1px;
+  border-radius: 15px;
+}
+  
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+
+/* Regist */
+.form-registration .form-floating:focus-within {
+  z-index: 2;
+}
+  
+.form-registration input[type="email"] {
+  margin-bottom: -1px;
+  border-radius: 15px;
+}
+  
+.form-registration input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.form-registration input[type="text"] {
+  margin-bottom: -1px;
+  border-radius: 15px;
+}
+
+
+/* Edit */
+.form-edit input[type="email"] {
+  margin-bottom: 0px;
+  border-radius: 20px;
+}
+  
+.form-edit input[type="password"] {
+  margin-bottom: 0px;
+  border-radius: 20px;
+}
+
+.form-edit input[type="text"] {
+  margin-bottom: 0px;
+  border-radius: 20px;
+}
+
+.form-edit input[type="number"] {
+  margin-bottom: 0px;
+  border-radius: 20px;
+}
+
+
+/* UTILITY */
+.login {
+  border-radius: 25px;
+  color: black;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.tombol {
+  border-radius: 30px;
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  padding: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centerd {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/* NAVBAR */
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.hov.nav-link:hover:after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #D4AC2B;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.welkom {
+  text-decoration: none;
+  color: white;
+  margin-top: 8px;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url(/img/home/warehouse-jumb.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+.thj {
+  font-weight: 350;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+  text-transform: capitalize;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+
+/* INFO PANEL */
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+  margin-top: -50px;
+  background-color: white;
+  padding: 20px;
+}
+
+.st {
+  margin-left: 52px;
+}
+
+.mc {
+  margin-left: 60px;
+}
+
+.et {
+  margin-left: 73px;
+}
+
+
+/* About */
+
+.about {
+  margin-top: 120px;
+}
+
+.about h3 {
+  font-size: 53px;
+  margin-top: 20px;
+  font-weight: 300;
+
+}
+
+.about p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.about span {
+  font-weight: 500;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: #5C5959;
+  margin-top: 200px;
+  height: 200px;
+  /* width: 100%; */
+}
+
+footer h3 {
+  color: #F4DFBA;
+}
+
+footer h6 {
+  margin-top: 20px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+
+.b {
+  margin-top: 5px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.address {
+  margin-left: 300px;
+}
+
+.addr {
+  margin-left: 300px;
+}
+
+
+/* LOGIN */
+
+.log-set {
+  margin-right: -12px;
+  padding: 30px;
+}
+
+.reg-set {
+  margin-right: -12px;
+  padding: 30px;
+  margin-top: -65px;
+}
+
+.img-log-reg {
+  border-radius: 30px;
+}
+
+h1.hlg-rg{
+  letter-spacing: 10px;
+  font-weight: 600;
+}
+
+
+/* Warehouses */
+
+
+
+/* Warehouse */
+.torder {
+  border-radius: 20px;
+}
+
+/* Feature */
+
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: .75rem;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  transition: transform .25s ease-in-out;
+  fill: currentColor;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: .75rem;
+}
+
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: 1rem; }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.facw {
+  font-weight: 300;
+}
+
+.facw.vol {
+  font-weight: 400;
+  margin-top: -100px;
+}
